@@ -132,6 +132,12 @@ table {
 html {
   font-size: 62.5%;
 }
+.nav-title {
+  font-size: 4rem;
+}
+nav {
+  font-size: 1.5rem;
+}
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -159,6 +165,22 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dee2e6;
+}
+.nav-title {
+  margin-bottom: 15px;
+}
+nav {
+  margin-bottom: 10px;
+}
+nav a {
+  padding: 15px;
 }
 footer {
   color: #22283B;
