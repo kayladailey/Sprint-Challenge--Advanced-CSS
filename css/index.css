@@ -161,6 +161,9 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+.btn {
+  font-size: 2rem;
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -198,6 +201,9 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .Space {
+  border-radius: 10px;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
@@ -233,6 +239,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #23293B;
+  color: #F6F7F8;
+  border-radius: 8px;
+  height: 30px;
+  margin-right: 215px;
+}
+.home .walk .btn-text {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .home .walk .walk-img {
   width: 46%;
